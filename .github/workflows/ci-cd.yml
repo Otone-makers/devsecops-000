@@ -84,7 +84,7 @@ jobs:
       image_tag: ${{ steps.set_output.outputs.image_tag }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       
       - name: Download build artifacts
         uses: actions/download-artifact@v4
